@@ -1,7 +1,7 @@
 const params =new URLSearchParams(document.location.search)
 const id =params.get("id")
 
-const UrlApi ='http://localhost:3000/api/products'
+const UrlApi ='https://kanapapi.vercel.app/api/products'
 
 fetch(UrlApi)
 .then(response => {
